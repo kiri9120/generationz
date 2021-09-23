@@ -425,35 +425,35 @@ h6, .h6 {
 }
 
 .display-2 {
-  font-size: 5.5rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (max-width: 1200px) {
   .display-2 {
-    font-size: calc(1.675rem + 5.1vw);
+    font-size: calc(1.525rem + 3.3vw);
   }
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (max-width: 1200px) {
   .display-3 {
-    font-size: calc(1.575rem + 3.9vw);
+    font-size: calc(1.425rem + 2.1vw);
   }
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (max-width: 1200px) {
   .display-4 {
-    font-size: calc(1.475rem + 2.7vw);
+    font-size: calc(1.325rem + 0.9vw);
   }
 }
 
@@ -14685,6 +14685,22 @@ figure.woocommerce-product-gallery__wrapper {
   font-size: 1.5rem;
 }
 
+.lh-sm {
+  line-height: 1.2;
+}
+
+.lh-md {
+  line-height: 1.5;
+}
+
+.lh-lg {
+  line-height: 1.8;
+}
+
+.lh-xl {
+  line-height: 2;
+}
+
 .shutter {
   position: fixed;
   top: 0;
@@ -14767,6 +14783,60 @@ figure.woocommerce-product-gallery__wrapper {
     height: 100%;
   }
 }
+.slashed-wrapper {
+  transform: rotate(-5deg);
+  position: relative;
+  height: 80px;
+}
+
+.slashed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.slashed .top,
+.slashed .bot {
+  text-align: center;
+  font: 62px/100px arial;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+}
+.slashed .top:before,
+.slashed .bot:before {
+  content: attr(title);
+  transform: rotate(5deg);
+}
+.slashed .top {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 50%;
+}
+.slashed .top:before {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+}
+.slashed .bot {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 5px;
+  bottom: 0;
+}
+.slashed .bot:before {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #007bff;

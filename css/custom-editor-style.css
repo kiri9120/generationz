@@ -761,35 +761,35 @@ h6, .h6 {
 }
 
 .display-2 {
-  font-size: 5.5rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (max-width: 1200px) {
   .display-2 {
-    font-size: calc(1.675rem + 5.1vw);
+    font-size: calc(1.525rem + 3.3vw);
   }
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (max-width: 1200px) {
   .display-3 {
-    font-size: calc(1.575rem + 3.9vw);
+    font-size: calc(1.425rem + 2.1vw);
   }
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (max-width: 1200px) {
   .display-4 {
-    font-size: calc(1.475rem + 2.7vw);
+    font-size: calc(1.325rem + 0.9vw);
   }
 }
 

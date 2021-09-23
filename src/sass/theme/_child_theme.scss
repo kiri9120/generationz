@@ -1,3 +1,4 @@
+// font-size
 .text-xs {
     font-size: 0.75rem;
 }
@@ -12,6 +13,20 @@
 }
 .text-xl {
     font-size: 1.5rem;
+}
+
+// line-height
+.lh-sm {
+    line-height: 1.2;
+}
+.lh-md {
+    line-height: 1.5;
+}
+.lh-lg {
+    line-height: 1.8;
+}
+.lh-xl {
+    line-height: 2;
 }
 
 // オープニングアニメーション
@@ -66,5 +81,68 @@
     100% {
         width: 100%;
         height: 100%;
+    }
+}
+
+// slashed
+.slashed-wrapper {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    position: relative;
+    height: 80px;
+}
+.slashed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+
+    .top,
+    .bot {
+        text-align: center;
+        font: 62px/100px arial;
+        text-transform: uppercase;
+        text-align: center;
+        overflow: hidden;
+    }
+    .top:before,
+    .bot:before {
+        content: attr(title);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    .top {
+        position: absolute;
+        top: 0;
+        left: 5px;
+        right: 0;
+        bottom: 50%;
+    }
+    .top:before {
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+        right: 0;
+    }
+    .bot {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 5px;
+        bottom: 0;
+    }
+    .bot:before {
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
     }
 }
