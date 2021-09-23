@@ -14665,6 +14665,26 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #007bff;
