@@ -92,7 +92,11 @@
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
     position: relative;
-    height: 80px;
+    height: 60px;
+
+    @include media-breakpoint-up(sm) {
+        height: 80px;
+    }
 }
 .slashed {
     position: absolute;
@@ -105,10 +109,14 @@
     .top,
     .bot {
         text-align: center;
-        font: 62px/100px arial;
+        font: 40px/66px arial;
         text-transform: uppercase;
         text-align: center;
         overflow: hidden;
+
+        @include media-breakpoint-up(sm) {
+            font: 62px/100px arial;
+        }
     }
     .top:before,
     .bot:before {
@@ -122,27 +130,38 @@
     .top {
         position: absolute;
         top: 0;
-        left: 5px;
+        left: 4px;
         right: 0;
         bottom: 50%;
     }
     .top:before {
         position: absolute;
-        bottom: -50px;
+        bottom: -32px;
         left: 0;
         right: 0;
+
+        @include media-breakpoint-up(sm) {
+            bottom: -50px;
+        }
     }
     .bot {
         position: absolute;
         top: 50%;
         left: 0;
-        right: 5px;
+        right: 4px;
         bottom: 0;
     }
     .bot:before {
         position: absolute;
-        top: -50px;
+        top: -32px;
         left: 0;
         right: 0;
+
+        @include media-breakpoint-up(sm) {
+            top: -50px;
+        }
     }
+}
+
+@include media-breakpoint-up(sm) {
 }

@@ -14786,7 +14786,12 @@ figure.woocommerce-product-gallery__wrapper {
 .slashed-wrapper {
   transform: rotate(-5deg);
   position: relative;
-  height: 80px;
+  height: 60px;
+}
+@media (min-width: 576px) {
+  .slashed-wrapper {
+    height: 80px;
+  }
 }
 
 .slashed {
@@ -14800,10 +14805,16 @@ figure.woocommerce-product-gallery__wrapper {
 .slashed .top,
 .slashed .bot {
   text-align: center;
-  font: 62px/100px arial;
+  font: 40px/66px arial;
   text-transform: uppercase;
   text-align: center;
   overflow: hidden;
+}
+@media (min-width: 576px) {
+  .slashed .top,
+.slashed .bot {
+    font: 62px/100px arial;
+  }
 }
 .slashed .top:before,
 .slashed .bot:before {
@@ -14813,28 +14824,38 @@ figure.woocommerce-product-gallery__wrapper {
 .slashed .top {
   position: absolute;
   top: 0;
-  left: 5px;
+  left: 4px;
   right: 0;
   bottom: 50%;
 }
 .slashed .top:before {
   position: absolute;
-  bottom: -50px;
+  bottom: -32px;
   left: 0;
   right: 0;
+}
+@media (min-width: 576px) {
+  .slashed .top:before {
+    bottom: -50px;
+  }
 }
 .slashed .bot {
   position: absolute;
   top: 50%;
   left: 0;
-  right: 5px;
+  right: 4px;
   bottom: 0;
 }
 .slashed .bot:before {
   position: absolute;
-  top: -50px;
+  top: -32px;
   left: 0;
   right: 0;
+}
+@media (min-width: 576px) {
+  .slashed .bot:before {
+    top: -50px;
+  }
 }
 
 .has-blue-color,
