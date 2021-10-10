@@ -53,85 +53,71 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">僕と私と株式会社 CEO</p>
+                            <p class="text-md">今瀧健登</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">イチミ株式会社 CEO</p>
+                            <p class="text-md">杉浦日向子</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">株式会社Honey At CEO</p>
+                            <p class="text-md">ピォー豊</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">株式会社ANCR CEO</p>
+                            <p class="text-md">福島颯人</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">株式会社ness CEO</p>
+                            <p class="text-md">渋谷啓太</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">株式会社NOPAIN CEO</p>
+                            <p class="text-md">久後諒平</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">株式会社YOICHO CEO</p>
+                            <p class="text-md">荒木彩乃</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">株式会社Next Paradigm CEO</p>
+                            <p class="text-md">大浴拓也</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">株式会社TAWO CEO</p>
+                            <p class="text-md">阿部洋子</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 pb-4">
-                        <img src="https://placehold.jp/200x200.png" alt="">
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 pb-4">
-                        <img src="https://placehold.jp/200x200.png" alt="">
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">〇〇株式会社 CEO</p>
-                            <p class="text-md">名前</p>
+                            <p class="text-sm mb-2">Being BaSE株式会社 CEO</p>
+                            <p class="text-md">笛田翼</p>
                         </div>
                     </div>
                 </div>
