@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
         <main class="site-main" id="main">
-            <section class="py-5">
+            <section id="mission" class="py-5">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
                         <div class="slashed-wrapper text-center mb-5">
@@ -41,7 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
             </section>
-            <section class="py-5">
+            <section id="founder" class="py-5">
                 <!-- <h2 class="h2 text-center mb-5">Partner</h2> -->
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
@@ -121,6 +121,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="contact" class="py-5">
             </section>
 
         </main><!-- #main -->
