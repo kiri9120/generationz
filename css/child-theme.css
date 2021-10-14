@@ -14858,6 +14858,30 @@ figure.woocommerce-product-gallery__wrapper {
   }
 }
 
+.founder-list:before,
+.founder-list:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 0;
+}
+@media (min-width: 768px) {
+  .founder-list:before,
+.founder-list:after {
+    width: 33.3%;
+  }
+}
+@media (min-width: 992px) {
+  .founder-list:before,
+.founder-list:after {
+    width: 25%;
+  }
+}
+
+.founder-list:before {
+  order: 1;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #007bff;

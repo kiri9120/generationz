@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="bot" title="FOUNDER"></div>
                     </h2>
                 </div>
-                <div class="row justify-content-between text-center">
+                <div class="founder-list row justify-content-between text-center">
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">

@@ -163,5 +163,20 @@
     }
 }
 
-@include media-breakpoint-up(sm) {
+.founder-list:before,
+.founder-list:after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 0;
+
+    @include media-breakpoint-up(md) {
+        width: 33.3%;
+    }
+    @include media-breakpoint-up(lg) {
+        width: 25%;
+    }
+}
+.founder-list:before {
+    order: 1;
 }
