@@ -27,6 +27,12 @@ function theme_enqueue_styles() {
     }
 }
 
+// google font
+add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
+function add_google_fonts() {
+    wp_enqueue_style( ' add_google_fonts ', 'https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap', false );
+}
+
 function add_child_theme_textdomain() {
     load_child_theme_textdomain( 'understrap-child', get_stylesheet_directory() . '/languages' );
 }
