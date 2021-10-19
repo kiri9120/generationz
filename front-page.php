@@ -122,7 +122,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
             </section>
-            <section id="sponsor">
+            <section id="sponsor" class="py-5">
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
                         <div class="top" title="SPONSOR"></div>
