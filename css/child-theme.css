@@ -14705,6 +14705,15 @@ figure.woocommerce-product-gallery__wrapper {
   line-height: 2;
 }
 
+.navbar-brand img {
+  width: 60px;
+}
+@media (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+}
+
 .shutter {
   position: fixed;
   top: 0;

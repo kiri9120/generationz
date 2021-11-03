@@ -34,6 +34,15 @@
     line-height: 2;
 }
 
+// ロゴ
+.navbar-brand img {
+    width: 60px;
+
+    @include media-breakpoint-up(md) {
+        width: 100px;
+    }
+}
+
 // オープニングアニメーション
 .shutter {
     position: fixed;
