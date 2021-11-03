@@ -152,7 +152,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
             </section>
-            <section id="sponsor" class="py-5">
+            <!-- <section id="sponsor" class="py-5">
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
                         <div class="top" title="SPONSOR"></div>
@@ -179,7 +179,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <img src="https://placehold.jp/200x100.png" alt="">
                     </div>
                 </div>
-            </section>
+            </section> -->
             <section id="contact" class="pt-5">
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
