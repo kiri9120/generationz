@@ -52,8 +52,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="founder-list row justify-content-between text-center">
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">僕と私と株式会社 CEO</p>
@@ -62,8 +62,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">イチミ株式会社 CEO</p>
@@ -72,8 +72,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">株式会社ANCR CEO</p>
@@ -82,8 +82,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">株式会社ness CEO</p>
@@ -92,8 +92,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">株式会社NOPAIN CEO</p>
@@ -102,8 +102,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">株式会社YOICHO CEO</p>
@@ -112,8 +112,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">株式会社Next Paradigm CEO</p>
@@ -122,8 +122,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hiroko1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hiroko2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">株式会社TAWO CEO</p>
@@ -132,8 +132,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">Being BaSE株式会社 CEO</p>
@@ -142,8 +142,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <div class="flipped-profile">
-                            <img src="https://placehold.jp/200x200.png" class="front" alt="">
-                            <img src="https://placehold.jp/200x200.png" class="flipped" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato1.jpg" class="front" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato2.jpg" class="flipped" alt="">
                         </div>
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">conf合同会社 CEO</p>
