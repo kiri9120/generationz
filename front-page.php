@@ -67,13 +67,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-6 col-md-4 col-lg-3 mb-4">
                         <img src="https://placehold.jp/200x200.png" alt="">
                         <div class="text-center my-3">
-                            <p class="text-sm mb-2">株式会社Honey At CEO</p>
-                            <p class="text-md">ピォー豊</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <img src="https://placehold.jp/200x200.png" alt="">
-                        <div class="text-center my-3">
                             <p class="text-sm mb-2">株式会社ANCR CEO</p>
                             <p class="text-md">福島颯人</p>
                         </div>
@@ -118,6 +111,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="text-center my-3">
                             <p class="text-sm mb-2">Being BaSE株式会社 CEO</p>
                             <p class="text-md">笛田翼</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 mb-4">
+                        <img src="https://placehold.jp/200x200.png" alt="">
+                        <div class="text-center my-3">
+                            <p class="text-sm mb-2">conf合同会社</p>
+                            <p class="text-md">霧生真斗</p>
                         </div>
                     </div>
                 </div>
