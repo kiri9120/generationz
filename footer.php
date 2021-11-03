@@ -41,6 +41,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- wrapper end -->
 
+<a href="#" id="pagetop">TOP</a>
+
 </div><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>
