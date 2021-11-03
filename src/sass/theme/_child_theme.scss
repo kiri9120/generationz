@@ -43,6 +43,20 @@
     }
 }
 
+// ファーストビュー
+#wrapper-hero .wp-block-cover {
+    min-height: 280px !important;
+
+    @include media-breakpoint-up(sm) {
+        min-height: 400px !important;
+    }
+    @include media-breakpoint-up(md) {
+        min-height: 500px !important;
+    }
+    @include media-breakpoint-up(lg) {
+        min-height: 650px !important;
+    }
+}
 
 // オープニングアニメーション
 .shutter {
