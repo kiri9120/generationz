@@ -14911,6 +14911,13 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: #495057;
 }
 
+section {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #007bff;
