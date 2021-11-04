@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
         <main class="site-main" id="main">
-            <section id="mission" class="py-5">
+            <div id="mission" class="py-5">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
                         <div class="slashed-wrapper text-center mb-5">
@@ -39,8 +39,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         私たちは、サラダを売るだけの外食企業ではありません。届けていくのは、CRISPらしいレストラン体験です。創業当時は、とにかく素敵なお客様と仲間に囲まれた良いお店をつくりたい、という想いを込めてCRISP SALAD WORKS1号店を開業しました。その想いは変わりませんが、今では私たちのやりたいことはもっともっと⼤きく、外⾷のビジネスモデルを180度ひっくり返すような「新しい外⾷」を⽬指しています。私たちは、飲食にテクノロジーの力を取り入れて、オンラインでもオフラインでも、あらゆる場所で人と人とのリアルなつながりが感じられるレストラン体験をつくっていきます。自分たちが信じるものに手を抜かずに、 仲間に、商品に、お店に、そしてお客様に愛情をもって本気で向き合いながら。日本の外食のあり方を変え、世の中を変える。私たちCRISPは、共に働くパートナーとお店を愛するファンと一緒に、飲食の未来をもっと面白くしていきます。（CRISPのこんな感じのテキスト入れたい）</p>
                     </div>
                 </div>
-            </section>
-            <section id="founder" class="py-5">
+            </div>
+            <div id="founder" class="py-5">
                 <!-- <h2 class="h2 text-center mb-5">Partner</h2> -->
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
@@ -150,7 +150,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             <!-- <section id="sponsor" class="py-5">
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
@@ -179,7 +179,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
             </section> -->
-            <section id="contact" class="pt-5">
+            <div id="contact" class="pt-5">
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
                         <div class="top" title="CONTACT"></div>
@@ -187,7 +187,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </h2>
                 </div>
                 <?php echo do_shortcode('[contact-form-7 id="15" title="Contact form"]'); ?>
-            </section>
+            </div>
 
         </main><!-- #main -->
 
