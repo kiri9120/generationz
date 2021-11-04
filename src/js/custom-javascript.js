@@ -3,16 +3,11 @@
 // ページ内リンク スムーススクロール
 jQuery(document).ready(function(){
     jQuery('a[href^="#"]').not('#pagetop').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash;
-        var $target = jQuery(target);
-
-        jQuery('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 500, 'swing', function () {
-        window.location.hash = target;
-        });
+        var href = jQuery(this).attr("href");
+        var target = jQuery(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        jQuery("html, body").animate({scrollTop:position}, 500, "swing");
+        return false;
     });
 });
 
