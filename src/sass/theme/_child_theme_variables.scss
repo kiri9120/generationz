@@ -12,18 +12,18 @@ $enable-responsive-font-sizes: true;
 
 
 // font-size
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:                $font-size-base * 1.25 !default;
-$font-size-sm:                $font-size-base * .875 !default;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25;
+$font-size-sm:                $font-size-base * .875;
 
-$display1-size:               6rem !default;
-$display2-size:               4rem !default;
-$display3-size:               3rem !default;
-$display4-size:               2rem !default;
+$display1-size:               6rem;
+$display2-size:               4rem;
+$display3-size:               3rem;
+$display4-size:               2rem;
 
-$display1-weight:             300 !default;
-$display2-weight:             300 !default;
-$display3-weight:             300 !default;
-$display4-weight:             300 !default;
+$display1-weight:             300;
+$display2-weight:             300;
+$display3-weight:             300;
+$display4-weight:             300;
 
 $font-family-base: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
