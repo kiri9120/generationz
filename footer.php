@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<footer class="site-footer" id="colophon">
 
-					<div class="site-info text-center">
+					<div class="site-info text-center text-xs">
 
 					Copyright © 2021 一般社団法人Z世代 All rights reserved.
 
