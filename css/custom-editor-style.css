@@ -22,9 +22,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #333;
   text-align: left;
-  background-color: #fff;
+  background-color: #e5e2df;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -354,7 +354,7 @@ template {
 .table, .wp-block-table table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #333;
 }
 .table th, .wp-block-table table th,
 .table td,
@@ -402,7 +402,7 @@ template {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
+  color: #333;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -672,7 +672,7 @@ template {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #e5e2df;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
