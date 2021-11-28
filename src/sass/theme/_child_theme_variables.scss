@@ -5,8 +5,8 @@
 $body-bg:                   #e5e2df;
 $body-color:                #333;
 
-$purple: purple; // Thats a sample how you could change a BootStrap variable.
-$primary: #333;  // Once we've changed the value, we'll also make it the primary brand color.
+$primary: #62249E;
+;  // Once we've changed the value, we'll also make it the primary brand color.
 
 $enable-responsive-font-sizes: true;
 
@@ -27,3 +27,7 @@ $display3-weight:             300;
 $display4-weight:             300;
 
 $font-family-base: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+
+$navbar-padding-y:                  1rem;
+$navbar-nav-link-padding-x:         1.25rem;
+$navbar-dark-color:                 #fff;

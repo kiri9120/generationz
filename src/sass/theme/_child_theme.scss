@@ -36,10 +36,21 @@
 
 // ロゴ
 .navbar-brand img {
-    width: 60px;
+    width: 48px;
 
     @include media-breakpoint-up(md) {
-        width: 100px;
+        width: 71px;
+    }
+}
+
+// navbar
+.navbar-nav {
+    .nav-link {
+        font-weight: bold;
+
+        @include hover-focus() {
+            text-decoration: underline;
+        }
     }
 }
 
