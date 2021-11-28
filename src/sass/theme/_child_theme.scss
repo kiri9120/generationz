@@ -203,8 +203,8 @@
     }
 }
 
-.founder-list:before,
-.founder-list:after {
+.member-list:before,
+.member-list:after {
     content: "";
     display: block;
     width: 50%;
@@ -217,20 +217,19 @@
         width: 25%;
     }
 }
-.founder-list:before {
+.member-list:before {
     order: 1;
 }
 
 // profile
 .flipped-profile{
-    margin: 0 auto;
     position: relative;
-    max-width: 200px;
+    overflow: hidden;
 
     &:before {
         content: "";
         display: block;
-        padding-top: 100%;
+        padding-top: 75%;
     }
     img{
         position: absolute;

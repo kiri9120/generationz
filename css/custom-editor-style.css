@@ -361,14 +361,14 @@ template {
 .wp-block-table table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  border-top: 3px solid #dee2e6;
 }
 .table thead th, .wp-block-table table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 6px solid #dee2e6;
 }
 .table tbody + tbody, .wp-block-table table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+  border-top: 6px solid #dee2e6;
 }
 
 .table-sm th,
@@ -377,17 +377,17 @@ template {
 }
 
 .table-bordered, .wp-block-table table {
-  border: 1px solid #dee2e6;
+  border: 3px solid #dee2e6;
 }
 .table-bordered th, .wp-block-table table th,
 .table-bordered td,
 .wp-block-table table td {
-  border: 1px solid #dee2e6;
+  border: 3px solid #dee2e6;
 }
 .table-bordered thead th, .wp-block-table table thead th,
 .table-bordered thead td,
 .wp-block-table table thead td {
-  border-bottom-width: 2px;
+  border-bottom-width: 6px;
 }
 
 .table-borderless th,
@@ -673,8 +673,8 @@ template {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #e5e2df;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  border: 3px solid #dee2e6;
+  border-radius: 0.5rem;
   max-width: 100%;
   height: auto;
 }
@@ -696,7 +696,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -710,11 +710,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 @media (max-width: 1200px) {
   h2, .h2 {
-    font-size: calc(1.325rem + 0.9vw);
+    font-size: calc(1.425rem + 2.1vw);
   }
 }
 
@@ -797,7 +797,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
 }
 
 small,
@@ -1165,10 +1165,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 .wp-block-buttons .wp-block-button:not(.is-style-outline) .wp-block-button__link {
-  border: 1px solid transparent;
+  border: 3px solid transparent;
 }
 
 .components-circular-option-picker__option {
@@ -1177,7 +1177,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .editor-post-title .editor-post-title__input {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=custom-editor-style.css.map */

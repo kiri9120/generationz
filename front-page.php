@@ -42,132 +42,168 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </section>
             <section id="members" class="py-5">
-                <!-- <h2 class="h2 text-center mb-5">Partner</h2> -->
-                <div class="slashed-wrapper text-center mb-5">
-                    <h2 class="slashed">
-                        <div class="top" title="FOUNDER"></div>
-                        <div class="bot" title="FOUNDER"></div>
-                    </h2>
-                </div>
-                <div class="founder-list row justify-content-between text-center">
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                <h2 class="h2 mb-5 font-weight-bold">Members</h2>
+                <div class="member-list row justify-content-between">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">僕と私と株式会社 CEO</p>
-                            <p class="text-md">今瀧健登</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">今瀧健登</p>
+                                <p class="text-sm">僕と私と株式会社 CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">イチミ株式会社 CEO</p>
-                            <p class="text-md">杉浦日向子</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">杉浦日向子</p>
+                                <p class="text-sm">イチミ株式会社 CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">株式会社ANCR CEO</p>
-                            <p class="text-md">福島颯人</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">福島颯人</p>
+                                <p class="text-sm">僕と私と株式会社 CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">株式会社ness CEO</p>
-                            <p class="text-md">渋谷啓太</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">渋谷啓太</p>
+                                <p class="text-sm">株式会社ness CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">株式会社NOPAIN CEO</p>
-                            <p class="text-md">久後諒平</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">久後諒平</p>
+                                <p class="text-sm">株式会社NOPAIN CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">株式会社YOICHO CEO</p>
-                            <p class="text-md">荒木彩乃</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">荒木彩乃</p>
+                                <p class="text-sm">株式会社YOICHO CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">株式会社Next Paradigm CEO</p>
-                            <p class="text-md">大浴拓也</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">大浴拓也</p>
+                                <p class="text-sm">株式会社Next Paradigm CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hiroko1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hiroko2.jpg" class="flipped"
-                                alt="">
-                        </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">株式会社TAWO CEO</p>
-                            <p class="text-md">阿部洋子</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">Being BaSE株式会社 CEO</p>
-                            <p class="text-md">笛田翼</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">笛田翼</p>
+                                <p class="text-sm">Being BaSE株式会社 CEO</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="flipped-profile">
+                    <div class="col-6 col-md-4 px-md-4 mb-4">
+                        <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato1.jpg" class="front"
                                 alt="">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato2.jpg" class="flipped"
                                 alt="">
                         </div>
-                        <div class="text-center my-3">
-                            <p class="text-sm mb-2">conf合同会社 CEO</p>
-                            <p class="text-md">霧生真斗</p>
+                        <div class="row justify-content-center py-3">
+                            <div class="col-12 col-md-8">
+                                <p class="text-md mb-2">霧生真斗</p>
+                                <p class="text-sm">conf株式会社 代表</p>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
+                                    alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
