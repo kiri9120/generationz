@@ -23,10 +23,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="index-wrapper">
 
-    <div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
-        <main class="site-main" id="main">
-            <section id="about" class="py-5">
+    <main class="site-main" id="main">
+        <section id="about" class="py-5">
+            <div class="<?php echo esc_attr( $container ); ?>">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
                         <div class="slashed-wrapper text-center mb-5">
@@ -40,8 +40,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </p>
                     </div>
                 </div>
-            </section>
-            <section id="members" class="py-5">
+            </div>
+        </section>
+        <section id="members" class="py-5">
+            <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 mb-5 font-weight-bold">Members</h2>
                 <div class="member-list row justify-content-between">
                     <div class="col-6 col-md-4 px-md-4 mb-4">
@@ -207,8 +209,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- <section id="sponsor" class="py-5">
+            </div>
+        </section>
+        <!-- <section id="sponsor" class="py-5">
                 <div class="slashed-wrapper text-center mb-5">
                     <h2 class="slashed">
                         <div class="top" title="SPONSOR"></div>
@@ -236,22 +239,17 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
             </section> -->
-            <section id="contact" class="pt-5">
-                <div class="slashed-wrapper text-center mb-5">
-                    <h2 class="slashed">
-                        <div class="top" title="CONTACT"></div>
-                        <div class="bot" title="CONTACT"></div>
-                    </h2>
-                </div>
+        <section id="contact" class="pt-5 bg-dark">
+            <div class="<?php echo esc_attr( $container ); ?>">
+                <h2 class="h2 mb-5 text-white text-center">We Create the Next Generation, with you</h2>
                 <?php echo do_shortcode('[contact-form-7 id="15" title="Contact form"]'); ?>
-            </section>
+            </div>
+        </section>
 
-        </main><!-- #main -->
+    </main><!-- #main -->
 
-        <!-- The pagination component -->
-        <?php understrap_pagination(); ?>
-
-    </div><!-- #content -->
+    <!-- The pagination component -->
+    <?php understrap_pagination(); ?>
 
 </div><!-- #index-wrapper -->
 

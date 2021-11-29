@@ -283,22 +283,25 @@
 .wpcf7 input[type="email"],
 .wpcf7 select,
 .wpcf7 textarea {
-    border: solid 3px $body-color;
-    border-radius: 0;
+    height: auto;
+    padding: 0.75rem 1rem;
+    border: solid 2px #fff;
+    border-radius: 3px;
 }
 .wpcf7 label {
-    font-weight: bold;
+    margin-bottom: 3rem;
+    background: $dark;
 }
 .wpcf7 input[type="submit"] {
+    border: solid 2px #fff;
+    border-radius: 3px;
     box-sizing: border-box;
-    border-radius: 0;
-    font-weight: bold;
-    background-color: $body-color;
     color: $white;
-    transform: 0.3s;
+    background-color: $dark;
 
     &:hover {
-        background-color: $gray-700;
+        background-color: $primary;
+        border-color: $primary;
     }
 }
 

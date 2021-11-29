@@ -341,7 +341,7 @@ template {
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #222;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -549,21 +549,21 @@ template {
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: #c6c8ca;
+  background-color: #c1c1c1;
 }
 .table-dark th,
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-  border-color: #95999c;
+  border-color: #8c8c8c;
 }
 
 .table-hover .table-dark:hover {
-  background-color: #b9bbbe;
+  background-color: #b4b4b4;
 }
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: #b9bbbe;
+  background-color: #b4b4b4;
 }
 
 .table-active,
@@ -1050,12 +1050,12 @@ mark,
 
 .has-dark-color,
 .has-dark-color:visited {
-  color: #343a40;
+  color: #222;
 }
 
 .has-dark-background-color {
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #222;
+  border-color: #222;
 }
 
 figure.wp-block-image {
