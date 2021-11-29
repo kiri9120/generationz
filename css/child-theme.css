@@ -14877,7 +14877,7 @@ figure.woocommerce-product-gallery__wrapper {
   transform: rotate(90deg);
   font-size: 90%;
   line-height: 1.5rem;
-  color: #737373;
+  color: #fff;
   padding: 0 0 0 35px;
   border-top: solid 1px;
 }
@@ -14899,13 +14899,38 @@ figure.woocommerce-product-gallery__wrapper {
 .wpcf7 textarea {
   height: auto;
   padding: 0.75rem 1rem;
+  background-color: #222;
   border: solid 2px #fff;
   border-radius: 3px;
+  color: #fff;
+}
+.wpcf7 input[type=text]::-moz-placeholder, .wpcf7 input[type=email]::-moz-placeholder, .wpcf7 select::-moz-placeholder, .wpcf7 textarea::-moz-placeholder {
+  color: #fff !important;
+}
+.wpcf7 input[type=text]:-ms-input-placeholder, .wpcf7 input[type=email]:-ms-input-placeholder, .wpcf7 select:-ms-input-placeholder, .wpcf7 textarea:-ms-input-placeholder {
+  color: #fff !important;
+}
+.wpcf7 input[type=text]::placeholder,
+.wpcf7 input[type=email]::placeholder,
+.wpcf7 select::placeholder,
+.wpcf7 textarea::placeholder {
+  color: #fff !important;
+}
+.wpcf7 input[type=text]:focus::-moz-placeholder, .wpcf7 input[type=email]:focus::-moz-placeholder, .wpcf7 select:focus::-moz-placeholder, .wpcf7 textarea:focus::-moz-placeholder {
+  color: #6c757d !important;
+}
+.wpcf7 input[type=text]:focus:-ms-input-placeholder, .wpcf7 input[type=email]:focus:-ms-input-placeholder, .wpcf7 select:focus:-ms-input-placeholder, .wpcf7 textarea:focus:-ms-input-placeholder {
+  color: #6c757d !important;
+}
+.wpcf7 input[type=text]:focus::placeholder,
+.wpcf7 input[type=email]:focus::placeholder,
+.wpcf7 select:focus::placeholder,
+.wpcf7 textarea:focus::placeholder {
+  color: #6c757d !important;
 }
 
 .wpcf7 label {
   margin-bottom: 3rem;
-  background: #222;
 }
 
 .wpcf7 input[type=submit] {

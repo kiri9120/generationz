@@ -21,9 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'global-templates/hero' ); ?>
 
-<div class="wrapper" id="index-wrapper">
-
-
+<div class="wrapper pb-0" id="index-wrapper">
     <main class="site-main" id="main">
         <section id="about" class="py-5">
             <div class="<?php echo esc_attr( $container ); ?>">
@@ -239,7 +237,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
             </section> -->
-        <section id="contact" class="pt-5 bg-dark">
+        <section id="contact" class="py-5 bg-dark">
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 mb-5 text-white text-center">We Create the Next Generation, with you</h2>
                 <?php echo do_shortcode('[contact-form-7 id="15" title="Contact form"]'); ?>
