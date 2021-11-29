@@ -42,11 +42,27 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 text-white mb-5">What We Do</h2>
                 <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="card">
+                    <div class="col-12 col-md-5 d-flex">
+                        <div class="card w-100">
                             <div class="card-body bg-white text-primary">
-                                <h3 class="card-title">Consulting</h3>
-                                <p></p>
+                                <h3 class="card-title text-underline">Community</h3>
+                                <p class="card-text">
+                                    Z世代に関するコミュニティ運営
+                                </p>
+                                <ul class="font-weight-bold">
+                                    <li>97会の運営</li>
+                                    <li>Z世代に関する情報発信</li>
+                                    <li>イベント</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 d-flex">
+                        <div class="card w-100">
+                            <div class="card-body bg-white text-primary">
+                                <h3 class="card-title">Comming Soon...</h3>
+                                <p class="card-text">
+                                </p>
                             </div>
                         </div>
                     </div>
