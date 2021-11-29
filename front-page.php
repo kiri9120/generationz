@@ -239,7 +239,8 @@ $container = get_theme_mod( 'understrap_container_type' );
             </section> -->
         <section id="contact" class="pt-7 pb-5 bg-dark">
             <div class="<?php echo esc_attr( $container ); ?>">
-                <h2 class="h2 mb-5 text-white text-center">We Create the Next Generation, with you</h2>
+                <h2 class="h2 mb-5 text-white text-center">We <span class="addfont1">Create</span> the Next Generation,
+                    with you</h2>
                 <?php echo do_shortcode('[contact-form-7 id="15" title="Contact form"]'); ?>
             </div>
         </section>
