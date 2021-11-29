@@ -21,21 +21,34 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'global-templates/hero' ); ?>
 
-<div class="wrapper pb-0" id="index-wrapper">
+<div class="wrapper py-0" id="index-wrapper">
     <main class="site-main" id="main">
-        <section id="about" class="py-5">
+        <section id="about" class="py-7 bg-primary text-white">
             <div class="<?php echo esc_attr( $container ); ?>">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-8">
-                        <div class="slashed-wrapper text-center mb-5">
-                            <h2 class="slashed">
-                                <div class="top" title="MISSION"></div>
-                                <div class="bot" title="MISSION"></div>
-                            </h2>
-                        </div>
-                        <p class="display-4 lh-xl font-weight-bold">
-                            自分らしく生きたことはあるか。僕たちが創るのはコミュニティじゃない、次世代だ。<br>「Z世代」と呼ばれる、1990年代中盤から2000年代終盤までに生まれた僕たち世代に向けて、革命の鐘を。<br>個々の鐘が集まり、音楽となり、人の心を動かしていく。
+                    <div class="col-12 col-md-5 col-lg-4">
+                        <p class="display-2 font-weight-bold">次世代の<br class="d-none d-md-block">熱狂を<br
+                                class="d-none d-md-block">動かす</p>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <p class="text-lg lh-xl">
+                            自分らしく生きたことはあるか。<br>僕たちが創るのはコミュニティじゃない、次世代だ。<br>「Z世代」と呼ばれる、1990年代中盤から2000年代終盤までに<br>生まれた僕たち世代に向けて、革命の鐘を。<br>個々の鐘が集まり、音楽となり、人の心を動かしていく。
                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="py-7 bg-dark">
+            <div class="<?php echo esc_attr( $container ); ?>">
+                <h2 class="h2 text-white mb-5">What We Do</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body bg-white text-primary">
+                                <h3 class="card-title">Consulting</h3>
+                                <p></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -239,8 +252,8 @@ $container = get_theme_mod( 'understrap_container_type' );
             </section> -->
         <section id="contact" class="pt-7 pb-5 bg-dark">
             <div class="<?php echo esc_attr( $container ); ?>">
-                <h2 class="h2 mb-5 text-white text-center">We <span class="addfont1">Create</span> the Next Generation,
-                    with you</h2>
+                <h2 class="h2 mb-5 text-white text-center">We <span class="font-additional2">Create</span> the Next
+                    Generation, with you</h2>
                 <?php echo do_shortcode('[contact-form-7 id="15" title="Contact form"]'); ?>
             </div>
         </section>

@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #333;
   text-align: left;
-  background-color: #e5e2df;
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -519,7 +519,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #e5e2df;
+  background-color: #fff;
   border: 3px solid #dee2e6;
   border-radius: 0.5rem;
   max-width: 100%;
@@ -5134,13 +5134,13 @@ input[type=button].btn-block {
   outline: 0;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #e5e2df, 0 0 0 0.2rem rgba(98, 36, 158, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(98, 36, 158, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #e5e2df, 0 0 0 0.2rem rgba(98, 36, 158, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(98, 36, 158, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #e5e2df, 0 0 0 0.2rem rgba(98, 36, 158, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(98, 36, 158, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -5314,8 +5314,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #e5e2df;
-  border-color: #dee2e6 #dee2e6 #e5e2df;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -3px;
@@ -16469,7 +16469,11 @@ figure.woocommerce-product-gallery__wrapper {
   font-family: "zallord";
   src: url(../fonts/zallord.ttf);
 }
-.addfont1 {
+.font-additional1 {
+  font-family: "Kaushan Script", cursive;
+}
+
+.font-additional2 {
   font-family: zallord;
   font-size: 120%;
   font-weight: 400;
@@ -16494,10 +16498,6 @@ figure.woocommerce-product-gallery__wrapper {
 
 .text-xl {
   font-size: 1.5rem;
-}
-
-.font-additional1 {
-  font-family: "Kaushan Script", cursive;
 }
 
 .lh-sm {
