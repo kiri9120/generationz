@@ -1,5 +1,14 @@
 // additional font
 @font-face {
+    font-family: 'product-sans';
+    src: url(../fonts/product-sans-regular.ttf);
+}
+@font-face {
+    font-family: 'product-sans';
+    src: url(../fonts/product-sans-bold.ttf);
+    font-weight: bold;
+}
+@font-face {
 	font-family: 'zallord';
 	src: url(../fonts/zallord.ttf);
 }
@@ -51,6 +60,10 @@
 // text-decoration
 .text-underline {
     text-decoration: underline;
+}
+
+body {
+    letter-spacing: 1px;
 }
 
 // ロゴ
