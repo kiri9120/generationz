@@ -67,6 +67,16 @@
     line-height: 2;
 }
 
+// stack
+.stack2 {
+    z-index: 2;
+}
+
+// position
+.position-relative {
+    position: relative;
+}
+
 // text-decoration
 .text-underline {
     text-decoration: underline;
@@ -110,6 +120,27 @@ body {
         min-height: 650px !important;
     }
 }
+
+#wrapper-hero {
+    background: $primary;
+}
+.wp-block-cover {
+
+    img.wp-block-cover__image-background {
+        max-width: 1200px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    }
+}
+// .wp-block-cover__inner-container {
+//     position: absolute;
+//     top: -60px;
+//     left: 0;
+//     right: 0;
+// }
 
 // オープニングアニメーション
 // .shutter {

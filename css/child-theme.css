@@ -16537,6 +16537,14 @@ figure.woocommerce-product-gallery__wrapper {
   line-height: 2;
 }
 
+.stack2 {
+  z-index: 2;
+}
+
+.position-relative {
+  position: relative;
+}
+
 .text-underline {
   text-decoration: underline;
 }
@@ -16578,6 +16586,19 @@ body {
   #wrapper-hero .wp-block-cover {
     min-height: 650px !important;
   }
+}
+
+#wrapper-hero {
+  background: #62249E;
+}
+
+.wp-block-cover img.wp-block-cover__image-background {
+  max-width: 1200px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
 }
 
 .member-list:before,
