@@ -16710,6 +16710,10 @@ body {
   border-color: #62249E;
 }
 
+.wpcf7-response-output {
+  color: #fff;
+}
+
 section {
   -webkit-user-select: none;
   -moz-user-select: none;
