@@ -43,7 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <h2 class="h2 text-white mb-5">What We Do</h2>
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5 d-flex">
-                        <div class="card w-100">
+                        <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
                                 <h3 class="card-title text-underline">Community</h3>
                                 <p class="card-text">
@@ -58,7 +58,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-5 d-flex">
-                        <div class="card w-100">
+                        <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
                                 <h3 class="card-title">Comming Soon...</h3>
                                 <p class="card-text">
