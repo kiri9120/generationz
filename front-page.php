@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </section>
         <section id="services" class="py-7 bg-dark">
             <div class="<?php echo esc_attr( $container ); ?>">
-                <h2 class="h2 text-white mb-5">What We Do</h2>
+                <h2 class="h2 text-white text-center text-md-left mb-5">What We Do</h2>
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5 d-flex">
                         <div class="card w-100 mb-4 mb-md-0">
@@ -78,7 +78,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </section>
         <section id="members" class="py-5">
             <div class="<?php echo esc_attr( $container ); ?>">
-                <h2 class="h2 mb-5 font-weight-bold">Members</h2>
+                <h2 class="h2 mb-5 font-weight-bold text-center text-md-left">Members</h2>
                 <div class="member-list row justify-content-between">
                     <div class="col-6 col-md-4 px-md-4 mb-4">
                         <div class="flipped-profile border border-primary rounded">
