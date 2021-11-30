@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="<?php echo esc_attr( $container ); ?>">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5 col-lg-4">
-                        <p class="display-2 font-weight-bold">次世代の<br class="d-none d-md-block">熱狂を<br
+                        <p class="display-3 font-weight-bold mb-4">次世代の<br class="d-none d-md-block">熱狂を<br
                                 class="d-none d-md-block">動かす</p>
                     </div>
                     <div class="col-12 col-md-7">
