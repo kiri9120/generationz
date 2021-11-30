@@ -126,7 +126,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="row justify-content-center py-3">
                             <div class="col-12 col-md-8">
                                 <p class="text-md mb-2">福島颯人</p>
-                                <p class="text-sm">僕と私と株式会社 CEO</p>
+                                <p class="text-sm">株式会社ANCR CEO</p>
                             </div>
                             <div class="col-6 col-md-4">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bokuwata.png"
