@@ -23,16 +23,23 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper py-0" id="index-wrapper">
     <main class="site-main" id="main">
-        <section id="about" class="py-7 bg-primary text-white">
+        <section id="about" class="py-7 bg-primary text-white text-center text-md-left">
             <div class="<?php echo esc_attr( $container ); ?>">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5 col-lg-4">
                         <p class="display-3 font-weight-bold mb-4">次世代の<br class="d-none d-md-block">熱狂を<br
                                 class="d-none d-md-block">動かす</p>
                     </div>
-                    <div class="col-12 col-md-7">
-                        <p class="text-lg lh-xl">
-                            自分らしく生きたことはあるか。<br>僕たちが創るのはコミュニティじゃない、次世代だ。<br>「Z世代」と呼ばれる、1990年代中盤から2000年代終盤までに<br>生まれた僕たち世代に向けて、革命の鐘を。<br>個々の鐘が集まり、音楽となり、人の心を動かしていく。
+                    <div class="col-12 col-md-7 text-md-lg lh-xl">
+                        <p class="mb-md-0">
+                            自分らしく生きたことはあるか。<br>僕たちが創るのはコミュニティじゃない、<br class="d-md-none">次世代だ。
+                        </p>
+                        <p class="mb-md-0">
+                            「Z世代」と呼ばれる、<br class="d-md-none">1990年代中盤から2000年代終盤までに<br>生まれた僕たち世代に向けて、<br
+                                class="d-md-none">革命の鐘を。
+                        </p>
+                        <p class="mb-md-0">
+                            個々の鐘が集まり、音楽となり、<br class="d-md-none">人の心を動かしていく。
                         </p>
                     </div>
                 </div>

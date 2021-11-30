@@ -16509,6 +16509,18 @@ figure.woocommerce-product-gallery__wrapper {
   font-size: 1.5rem;
 }
 
+@media (min-width: 768px) {
+  .text-md-lg {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+}
+
 .lh-sm {
   line-height: 1.2;
 }
@@ -16565,81 +16577,6 @@ body {
 @media (min-width: 992px) {
   #wrapper-hero .wp-block-cover {
     min-height: 650px !important;
-  }
-}
-
-.slashed-wrapper {
-  transform: rotate(-5deg);
-  position: relative;
-  height: 60px;
-}
-@media (min-width: 576px) {
-  .slashed-wrapper {
-    height: 80px;
-  }
-}
-
-.slashed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-}
-.slashed .top,
-.slashed .bot {
-  text-align: center;
-  font: 40px/66px arial;
-  text-transform: uppercase;
-  text-align: center;
-  overflow: hidden;
-}
-@media (min-width: 576px) {
-  .slashed .top,
-.slashed .bot {
-    font: 62px/100px arial;
-  }
-}
-.slashed .top:before,
-.slashed .bot:before {
-  content: attr(title);
-  transform: rotate(5deg);
-}
-.slashed .top {
-  position: absolute;
-  top: 0;
-  left: 4px;
-  right: 0;
-  bottom: 50%;
-}
-.slashed .top:before {
-  position: absolute;
-  bottom: -32px;
-  left: 0;
-  right: 0;
-}
-@media (min-width: 576px) {
-  .slashed .top:before {
-    bottom: -50px;
-  }
-}
-.slashed .bot {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 4px;
-  bottom: 0;
-}
-.slashed .bot:before {
-  position: absolute;
-  top: -32px;
-  left: 0;
-  right: 0;
-}
-@media (min-width: 576px) {
-  .slashed .bot:before {
-    top: -50px;
   }
 }
 
