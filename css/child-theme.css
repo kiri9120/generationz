@@ -16569,6 +16569,11 @@ body {
   text-decoration: underline;
 }
 
+.kv {
+  background-image: url(../images/kv-bg.jpg);
+  background-size: cover;
+}
+
 #wrapper-hero .wp-block-cover {
   min-height: 280px !important;
 }

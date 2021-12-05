@@ -19,34 +19,39 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="kv bg-dark px-md-5 pt-3 py-md-5 mb-n3">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-txt.png" class="w-100" alt="">
-</div>
 
 <div class="wrapper py-0" id="index-wrapper">
     <main class="site-main" id="main">
-        <section id="about" class="py-7 bg-primary text-white text-center text-md-left">
-            <div class="<?php echo esc_attr( $container ); ?>">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-5 col-lg-4">
-                        <p class="display-3 font-weight-bold mb-4 icon-star">次世代の<br class="d-none d-md-block">熱狂を<br
-                                class="d-none d-md-block">動かす</p>
-                    </div>
-                    <div class="col-12 col-md-7 text-md-lg lh-xl">
-                        <p class="mb-md-0">
-                            自分らしく生きたことはあるか。<br>僕たちが創るのはコミュニティじゃない、<br class="d-md-none">次世代だ。
-                        </p>
-                        <p class="mb-md-0">
-                            「Z世代」と呼ばれる、<br class="d-md-none">1990年代中盤から2000年代終盤までに<br>生まれた僕たち世代に向けて、<br
-                                class="d-md-none">革命の鐘を。
-                        </p>
-                        <p class="mb-md-0">
-                            個々の鐘が集まり、音楽となり、<br class="d-md-none">人の心を動かしていく。
-                        </p>
+        <div class="kv pb-md-10">
+            <div class="px-md-5 pt-5 py-md-7 text-center">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-pc.png"
+                    class="w-100 d-none d-md-inline" style="max-width: 1200px;" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-sp.png" class="w-100 d-md-none"
+                    alt="">
+            </div>
+            <section id="about" class="pt-7 pb-10 text-white text-center text-md-left">
+                <div class="<?php echo esc_attr( $container ); ?>">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-5 col-lg-4">
+                            <p class="display-3 font-weight-bold mb-4 icon-star">次世代の<br
+                                    class="d-none d-md-block">熱狂を<br class="d-none d-md-block">動かす</p>
+                        </div>
+                        <div class="col-12 col-md-7 text-md-lg lh-xl">
+                            <p class="mb-md-0">
+                                自分らしく生きたことはあるか。<br>僕たちが創るのはコミュニティじゃない、<br class="d-md-none">次世代だ。
+                            </p>
+                            <p class="mb-md-0">
+                                「Z世代」と呼ばれる、<br class="d-md-none">1990年代中盤から2000年代終盤までに<br>生まれた僕たち世代に向けて、<br
+                                    class="d-md-none">革命の鐘を。
+                            </p>
+                            <p class="mb-md-0">
+                                個々の鐘が集まり、音楽となり、<br class="d-md-none">人の心を動かしていく。
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <section id="services" class="py-7 bg-dark">
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 text-white text-center text-md-left mb-5">What We Do</h2>
