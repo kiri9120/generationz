@@ -16679,6 +16679,22 @@ body {
   transform-origin: left top;
 }
 
+.icon-star {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .icon-star:before {
+    content: "";
+    background-image: url(../images/icon-star-purple.png);
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    left: -44px;
+    width: 44px;
+    height: 54px;
+  }
+}
+
 .wpcf7 input[type=text],
 .wpcf7 input[type=email],
 .wpcf7 select,

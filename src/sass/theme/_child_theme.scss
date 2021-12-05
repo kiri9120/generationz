@@ -273,6 +273,23 @@ body {
     }
 }
 
+.icon-star {
+    position: relative;
+
+    &:before {
+        @include media-breakpoint-up(md) {
+            content: "";
+            background-image: url(../images/icon-star-purple.png);
+            background-size: contain;
+            position: absolute;
+            top: -20px;
+            left: -44px;
+            width: 44px;
+            height: 54px;
+        }
+    }
+}
+
 // お問い合わせフォーム
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],

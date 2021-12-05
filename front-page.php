@@ -19,7 +19,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="kv bg-dark px-md-5 pt-3 py-md-5 mb-n3 mb-md-0">
+<div class="kv bg-dark px-md-5 pt-3 py-md-5 mb-n3">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-txt.png" class="w-100" alt="">
 </div>
 
@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="<?php echo esc_attr( $container ); ?>">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5 col-lg-4">
-                        <p class="display-3 font-weight-bold mb-4">次世代の<br class="d-none d-md-block">熱狂を<br
+                        <p class="display-3 font-weight-bold mb-4 icon-star">次世代の<br class="d-none d-md-block">熱狂を<br
                                 class="d-none d-md-block">動かす</p>
                     </div>
                     <div class="col-12 col-md-7 text-md-lg lh-xl">
@@ -114,7 +114,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </section>
         <section id="members" class="py-5">
             <div class="<?php echo esc_attr( $container ); ?>">
-                <h2 class="h2 mb-5 font-weight-bold text-center text-md-left">Members</h2>
+                <h2 class="h2 mb-5 font-weight-bold text-center text-md-left icon-star">Members</h2>
                 <div class="member-list row justify-content-between">
                     <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
                         <div class="flipped-profile border border-primary rounded">
