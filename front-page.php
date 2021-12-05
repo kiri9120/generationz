@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 text-white text-center text-md-left mb-5">What We Do</h2>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-5 d-flex">
+                    <div class="col-12 col-md-6 d-flex">
                         <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
                                 <h3 class="card-title text-underline">Community</h3>
@@ -66,7 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 d-flex">
+                    <div class="col-12 col-md-6 d-flex">
                         <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
                                 <h3 class="card-title">Comming Soon...</h3>
@@ -74,6 +74,40 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="mt-6 py-4 bg-white rounded">
+                    <h3 class="h3 text-center text-lg mt-3 mb-5">関連会社一覧</h3>
+                    <div class="row justify-content-center px-5">
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_bokuwata.png"
+                                class="w-100" style="max-width: 150px;" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ichimi.png"
+                                class="w-100" style="max-width: 100px;" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ancr.png" class="w-100"
+                                alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_yoicho.png"
+                                class="w-100" style="max-width: 60px;" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_nextparadigm.png"
+                                class="w-100" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_beingbase.png"
+                                class="w-100" style="max-width: 60px;" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_conf.png" class="w-100"
+                                style="max-width: 150px;" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 text-center"></div>
                     </div>
                 </div>
             </div>
