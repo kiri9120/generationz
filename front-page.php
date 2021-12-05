@@ -19,7 +19,9 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php get_template_part( 'global-templates/hero' ); ?>
+<div class="kv bg-dark px-md-5 pt-3 py-md-5 mb-n3 mb-md-0">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-txt.png" class="w-100" alt="">
+</div>
 
 <div class="wrapper py-0" id="index-wrapper">
     <main class="site-main" id="main">
