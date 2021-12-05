@@ -116,7 +116,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 mb-5 font-weight-bold text-center text-md-left icon-star">Members</h2>
                 <div class="member-list row justify-content-between">
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent1.jpg" class="front"
                                 alt="">
@@ -134,7 +134,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako1.jpg" class="front"
                                 alt="">
@@ -152,7 +152,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato1.jpg" class="front"
                                 alt="">
@@ -170,7 +170,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita1.jpg" class="front"
                                 alt="">
@@ -186,7 +186,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei1.jpg" class="front"
                                 alt="">
@@ -202,7 +202,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano1.jpg" class="front"
                                 alt="">
@@ -220,7 +220,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya1.jpg" class="front"
                                 alt="">
@@ -238,7 +238,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa1.jpg" class="front"
                                 alt="">
@@ -256,7 +256,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 px-4 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="flipped-profile border border-primary rounded">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato1.jpg" class="front"
                                 alt="">
