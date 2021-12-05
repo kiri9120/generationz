@@ -69,7 +69,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-12 col-md-6 d-flex">
                         <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
-                                <h3 class="card-title">Comming Soon...</h3>
+                                <h3 class="card-title">Coming Soon...</h3>
                                 <p class="card-text">
                                 </p>
                             </div>
