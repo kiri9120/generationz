@@ -10007,6 +10007,21 @@
       }, 500);
       return false;
     });
+  }); // スクロールでnavbar着色
+
+  function FixedAnime() {
+    var headerH = jQuery('#main-nav').outerHeight(true);
+    var scroll = jQuery(window).scrollTop();
+
+    if (scroll >= headerH) {
+      jQuery('#main-nav').addClass('bg-dark');
+    } else {
+      jQuery('#main-nav').removeClass('bg-dark');
+    }
+  }
+
+  jQuery(window).scroll(function () {
+    FixedAnime();
   });
 
   exports.Alert = Alert;
