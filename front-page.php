@@ -115,7 +115,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </div>
         </section>
-        <section id="members" class="py-5">
+        <section id="members" class="py-5 bg-white">
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 mb-5 font-weight-bold text-center text-md-left icon-star">Members</h2>
                 <div class="member-list row justify-content-between">
