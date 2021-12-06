@@ -60,9 +60,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
                                 <h3 class="card-title text-underline">Community</h3>
-                                <p class="card-text">
-                                    Z世代に関するコミュニティ運営
-                                </p>
+                                <p class="card-text">Z世代に関するコミュニティ運営</p>
                                 <ul class="font-weight-bold">
                                     <li>97会の運営</li>
                                     <li>Z世代に関する情報発信</li>
@@ -122,11 +120,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <h2 class="h2 mb-5 font-weight-bold text-center text-md-left icon-star">Members</h2>
                 <div class="member-list row justify-content-between">
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -140,11 +135,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -158,11 +150,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -176,11 +165,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -192,11 +178,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -208,11 +191,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -226,11 +206,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -244,11 +221,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -262,11 +236,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-profile border border-primary rounded">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato1.jpg" class="front"
-                                alt="">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato2.jpg" class="flipped"
-                                alt="">
+                        <div class="border border-primary rounded overflow-hidden">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">

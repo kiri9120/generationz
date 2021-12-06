@@ -674,7 +674,7 @@ template {
   padding: 0.25rem;
   background-color: #fff;
   border: 3px solid #dee2e6;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   max-width: 100%;
   height: auto;
 }
@@ -1165,7 +1165,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
 }
 .wp-block-buttons .wp-block-button:not(.is-style-outline) .wp-block-button__link {
   border: 3px solid transparent;
