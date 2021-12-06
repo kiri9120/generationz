@@ -207,7 +207,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya2.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg" alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
