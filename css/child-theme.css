@@ -16635,34 +16635,6 @@ body {
   order: 1;
 }
 
-.flipped-profile {
-  position: relative;
-  overflow: hidden;
-}
-.flipped-profile:before {
-  content: "";
-  display: block;
-  padding-top: 75%;
-}
-.flipped-profile img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transition: all 0.5s ease;
-}
-.flipped-profile .flipped {
-  transform: rotateY(180deg);
-}
-.flipped-profile:hover .front {
-  transform: rotateY(180deg);
-}
-.flipped-profile:hover .flipped {
-  transform: rotateY(0deg);
-}
-
 #pagetop {
   position: fixed;
   right: 20px;

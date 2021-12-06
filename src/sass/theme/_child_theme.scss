@@ -225,34 +225,6 @@ body {
     order: 1;
 }
 
-// profile
-.flipped-profile{
-    position: relative;
-    overflow: hidden;
-
-    &:before {
-        content: "";
-        display: block;
-        padding-top: 75%;
-    }
-    img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        backface-visibility: hidden;
-        transition: all 0.5s ease;
-    }
-    .flipped{
-        transform: rotateY( 180deg );
-    }
-    &:hover .front{
-        transform: rotateY( 180deg );
-    }
-    &:hover .flipped{
-        transform: rotateY( 0deg );
-    }
-}
 
 // トップへ戻るボタン
 #pagetop {
