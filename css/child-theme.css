@@ -16570,6 +16570,17 @@ body {
   text-decoration: underline;
 }
 
+#navbarNavDropdown {
+  margin: 0 -1rem;
+  padding: 0 1rem;
+  background: #222;
+}
+@media (min-width: 768px) {
+  #navbarNavDropdown {
+    background: transparent;
+  }
+}
+
 .kv {
   background-image: url(../images/kv-bg-sp.jpg);
   background-size: cover;
