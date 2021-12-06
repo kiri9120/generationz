@@ -64,7 +64,7 @@
     line-height: 1.8;
 }
 .lh-xl {
-    line-height: 2;
+    line-height: 2.2;
 }
 
 // stack
@@ -107,8 +107,12 @@ body {
 }
 
 .kv {
-    background-image: url(../images/kv-bg.jpg);
+    background-image: url(../images/kv-bg-sp.jpg);
     background-size: cover;
+
+    @include media-breakpoint-up(md) {
+        background-image: url(../images/kv-bg-pc.jpg);
+    }
 }
 
 // ファーストビュー

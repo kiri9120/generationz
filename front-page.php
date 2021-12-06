@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="wrapper py-0" id="index-wrapper">
     <main class="site-main" id="main">
         <div class="kv pb-md-10">
-            <div class="px-md-5 pt-5 py-md-7 text-center">
+            <div class="px-md-5 pt-8 py-md-7 text-center">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-pc.png"
                     class="w-100 d-none d-md-inline" style="max-width: 1200px;" alt="">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-sp.png" class="w-100 d-md-none"
@@ -33,14 +33,14 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="<?php echo esc_attr( $container ); ?>">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-5 col-lg-4">
-                            <p class="display-3 font-weight-bold mb-4 icon-star">次世代の<br
+                            <p class="display-3 font-weight-bold mb-5 icon-star">次世代の<br
                                     class="d-none d-md-block">熱狂を<br class="d-none d-md-block">動かす</p>
                         </div>
                         <div class="col-12 col-md-7 text-md-lg lh-xl">
-                            <p class="mb-md-0">
+                            <p class="mb-4 mb-md-0">
                                 自分らしく生きたことはあるか。<br>僕たちが創るのはコミュニティじゃない、<br class="d-md-none">次世代だ。
                             </p>
-                            <p class="mb-md-0">
+                            <p class="mb-4 mb-md-0">
                                 「Z世代」と呼ばれる、<br class="d-md-none">1990年代中盤から2000年代終盤までに<br>生まれた僕たち世代に向けて、<br
                                     class="d-md-none">革命の鐘を。
                             </p>

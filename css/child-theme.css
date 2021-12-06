@@ -16534,7 +16534,7 @@ figure.woocommerce-product-gallery__wrapper {
 }
 
 .lh-xl {
-  line-height: 2;
+  line-height: 2.2;
 }
 
 .stack2 {
@@ -16570,8 +16570,13 @@ body {
 }
 
 .kv {
-  background-image: url(../images/kv-bg.jpg);
+  background-image: url(../images/kv-bg-sp.jpg);
   background-size: cover;
+}
+@media (min-width: 768px) {
+  .kv {
+    background-image: url(../images/kv-bg-pc.jpg);
+  }
 }
 
 #wrapper-hero .wp-block-cover {
