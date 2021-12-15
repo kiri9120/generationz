@@ -24,10 +24,10 @@ $container = get_theme_mod( 'understrap_container_type' );
     <main class="site-main" id="main">
         <div class="kv pb-md-10">
             <div class="px-md-5 pt-8 py-md-7 text-center">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-pc.png"
+                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-pc.png"
                     class="w-100 d-none d-md-inline" style="max-width: 1200px;" alt="">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-sp.png" class="w-100 d-md-none"
-                    alt="">
+                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-sp.png"
+                    class="w-100 d-md-none" alt="">
             </div>
             <section id="about" class="pt-7 pb-10 text-white text-center text-md-left">
                 <div class="<?php echo esc_attr( $container ); ?>">
@@ -83,32 +83,37 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <h3 class="h3 text-center text-lg mt-3 mb-5">関連会社一覧</h3>
                     <div class="row justify-content-center px-5">
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_bokuwata.png"
+                            <img loading="lazy"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_bokuwata.png"
                                 class="w-100" style="max-width: 150px;" alt="">
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ichimi.png"
-                                class="w-100" style="max-width: 100px;" alt="">
+                            <img loading="lazy"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ichimi.png" class="w-100"
+                                style="max-width: 100px;" alt="">
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ancr.png" class="w-100"
-                                alt="">
-                        </div>
-                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_yoicho.png"
-                                class="w-100" style="max-width: 60px;" alt="">
-                        </div>
-                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_nextparadigm.png"
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ancr.png"
                                 class="w-100" alt="">
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_beingbase.png"
+                            <img loading="lazy"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_yoicho.png" class="w-100"
+                                style="max-width: 60px;" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img loading="lazy"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_nextparadigm.png"
+                                class="w-100" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img loading="lazy"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_beingbase.png"
                                 class="w-100" style="max-width: 60px;" alt="">
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_conf.png" class="w-100"
-                                style="max-width: 150px;" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_conf.png"
+                                class="w-100" style="max-width: 150px;" alt="">
                         </div>
                         <div class="col-6 col-md-3 mb-5 text-center"></div>
                     </div>
@@ -121,7 +126,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="member-list row justify-content-between">
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -129,14 +135,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">僕と私と株式会社 CEO</p>
                             </div>
                             <div class="col-4 text-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_bokuwata.png"
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_bokuwata.png"
                                     class="w-100" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -144,14 +152,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">イチミ株式会社 CEO</p>
                             </div>
                             <div class="col-4 text-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ichimi.png"
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ichimi.png"
                                     class="w-100" style="max-width: 60px;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -159,14 +169,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">株式会社ANCR CEO</p>
                             </div>
                             <div class="col-4 text-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ancr.png"
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ancr.png"
                                     class="w-100" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -179,7 +191,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -192,7 +205,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -200,14 +214,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">株式会社YOICHO CEO</p>
                             </div>
                             <div class="col-4 text-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_yoicho.png"
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_yoicho.png"
                                     class="w-100" style="max-width: 50px;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -215,14 +231,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">株式会社Next Paradigm CEO</p>
                             </div>
                             <div class="col-4 text-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_nextparadigm.png"
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_nextparadigm.png"
                                     class="w-100" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -230,14 +248,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">Being BaSE株式会社 CEO</p>
                             </div>
                             <div class="col-4 text-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_beingbase.png"
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_beingbase.png"
                                     class="w-100" style="max-width: 50px;" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato.jpg" alt="">
+                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato.jpg"
+                                alt="">
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -245,7 +265,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">conf株式会社 代表</p>
                             </div>
                             <div class="col-4 text-right">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_conf.png"
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_conf.png"
                                     class="w-100" alt="">
                             </div>
                         </div>
