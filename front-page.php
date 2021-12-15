@@ -253,34 +253,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </div>
         </section>
-        <!-- <section id="sponsor" class="py-5">
-                <div class="slashed-wrapper text-center mb-5">
-                    <h2 class="slashed">
-                        <div class="top" title="SPONSOR"></div>
-                        <div class="bot" title="SPONSOR"></div>
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="col-6 col-md-3 col-lg-2 mb-4">
-                        <img src="https://placehold.jp/200x100.png" alt="">
-                    </div>
-                    <div class="col-6 col-md-3 col-lg-2 mb-4">
-                        <img src="https://placehold.jp/200x100.png" alt="">
-                    </div>
-                    <div class="col-6 col-md-3 col-lg-2 mb-4">
-                        <img src="https://placehold.jp/200x100.png" alt="">
-                    </div>
-                    <div class="col-6 col-md-3 col-lg-2 mb-4">
-                        <img src="https://placehold.jp/200x100.png" alt="">
-                    </div>
-                    <div class="col-6 col-md-3 col-lg-2 mb-4">
-                        <img src="https://placehold.jp/200x100.png" alt="">
-                    </div>
-                    <div class="col-6 col-md-3 col-lg-2 mb-4">
-                        <img src="https://placehold.jp/200x100.png" alt="">
-                    </div>
-                </div>
-            </section> -->
         <section id="contact" class="pt-7 pb-5 bg-dark">
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 mb-5 text-white text-center">We <span class="font-additional2">Create</span> the Next
