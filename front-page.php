@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="wrapper py-0" id="index-wrapper">
     <main class="site-main" id="main">
         <div class="kv pb-md-10">
-            <div class="px-md-5 pt-8 py-md-7 text-center">
+            <div class="px-md-5 pt-8 pb-md-8 text-center">
                 <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-pc.png"
                     class="w-100 d-none d-md-inline" style="max-width: 1200px;" alt="">
                 <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kv-sp.png"
