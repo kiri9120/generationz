@@ -16647,6 +16647,38 @@ body {
   order: 1;
 }
 
+.flipped-profile {
+  position: relative;
+  overflow: hidden;
+}
+.flipped-profile:before {
+  content: "";
+  display: block;
+  padding-top: 60%;
+}
+.flipped-profile > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.flipped-profile .flipped {
+  transform: rotateY(180deg);
+}
+.flipped-profile:hover .front {
+  transform: rotateY(180deg);
+}
+.flipped-profile:hover .flipped {
+  transform: rotateY(0deg);
+}
+
 #pagetop {
   position: fixed;
   right: 20px;
