@@ -16647,36 +16647,34 @@ body {
   order: 1;
 }
 
-.flipped-profile {
+/* フリップ */
+.flipped-card {
   position: relative;
-  overflow: hidden;
 }
-.flipped-profile:before {
+.flipped-card:before {
   content: "";
   display: block;
-  padding-top: 60%;
+  padding-top: 57%;
 }
-.flipped-profile > div {
+.flipped-card .front,
+.flipped-card .back {
+  transition: all 0.6s;
   position: absolute;
-  top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: all 0.5s ease;
-  box-sizing: border-box;
-  overflow: hidden;
 }
-.flipped-profile .flipped {
+.flipped-card .front {
+  transform: rotateY(-180deg);
+}
+.flipped-card:hover .front {
+  transform: rotateY(0);
+}
+.flipped-card:hover .back {
   transform: rotateY(180deg);
-}
-.flipped-profile:hover .front {
-  transform: rotateY(180deg);
-}
-.flipped-profile:hover .flipped {
-  transform: rotateY(0deg);
 }
 
 #pagetop {

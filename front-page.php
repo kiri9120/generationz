@@ -125,9 +125,15 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <h2 class="h2 mb-5 font-weight-bold text-center text-md-left icon-star">Members</h2>
                 <div class="member-list row justify-content-between">
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent.jpg"
+                                    class="w-100" alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent.jpg"
+                                    class="w-100" alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -142,9 +148,17 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako.jpg" class="w-100"
+                                    alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako.jpg" class="w-100"
+                                    alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -159,9 +173,17 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato.jpg" class="w-100"
+                                    alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato.jpg" class="w-100"
+                                    alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -176,9 +198,15 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita.jpg"
+                                    class="w-100" alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita.jpg"
+                                    class="w-100" alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -190,9 +218,17 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei.jpg" class="w-100"
+                                    alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei.jpg" class="w-100"
+                                    alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -204,9 +240,15 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano.jpg"
+                                    class="w-100" alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano.jpg"
+                                    class="w-100" alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -221,9 +263,17 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg" class="w-100"
+                                    alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg" class="w-100"
+                                    alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -238,9 +288,17 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa.jpg" class="w-100"
+                                    alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa.jpg" class="w-100"
+                                    alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
@@ -255,9 +313,17 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="border border-primary rounded overflow-hidden">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato.jpg"
-                                alt="">
+                        <div class="flipped-card">
+                            <div class="front border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato.jpg" class="w-100"
+                                    alt="" />
+                            </div>
+                            <div class="back border border-primary rounded overflow-hidden">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato.jpg" class="w-100"
+                                    alt="" />
+                            </div>
                         </div>
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
