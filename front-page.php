@@ -32,11 +32,11 @@ $container = get_theme_mod( 'understrap_container_type' );
             <section id="about" class="pt-7 pb-10 text-white text-center text-md-left">
                 <div class="<?php echo esc_attr( $container ); ?>">
                     <div class="row justify-content-center">
-                        <div class="col-12 col-md-5 col-lg-4">
+                        <div class="fadein col-12 col-md-5 col-lg-4">
                             <p class="display-3 font-weight-bold mb-5 icon-star">次世代の<br
                                     class="d-none d-md-block">熱狂を<br class="d-none d-md-block">動かす</p>
                         </div>
-                        <div class="col-12 col-md-7 text-md-lg lh-xl">
+                        <div class="fadein col-12 col-md-7 text-md-lg lh-xl">
                             <p class="mb-4 mb-md-0">
                                 自分らしく生きたことはあるか。<br>僕たちが創るのはコミュニティじゃない、<br class="d-md-none">次世代だ。
                             </p>
@@ -56,7 +56,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 text-white text-center text-md-left mb-5">What We Do</h2>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 d-flex">
+                    <div class="fadein col-12 col-md-6 d-flex">
                         <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
                                 <h3 class="card-title text-underline">Community</h3>
@@ -69,7 +69,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex">
+                    <div class="fadein col-12 col-md-6 d-flex">
                         <div class="card w-100 mb-4 mb-md-0">
                             <div class="card-body bg-white text-primary">
                                 <h3 class="card-title">Coming Soon...</h3>
@@ -79,7 +79,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
-                <div class="mt-6 py-4 bg-white rounded">
+                <div class="fadein mt-6 py-4 bg-white rounded">
                     <h3 class="h3 text-center text-lg mt-3 mb-5">関連会社一覧</h3>
                     <div class="row justify-content-center px-5">
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
@@ -124,7 +124,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="<?php echo esc_attr( $container ); ?>">
                 <h2 class="h2 mb-5 font-weight-bold text-center text-md-left icon-star">Members</h2>
                 <div class="member-list row justify-content-between">
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kent.jpg"
                                 alt="">
@@ -141,7 +141,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hinako.jpg"
                                 alt="">
@@ -158,7 +158,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato.jpg"
                                 alt="">
@@ -175,7 +175,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita.jpg"
                                 alt="">
@@ -189,7 +189,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei.jpg"
                                 alt="">
@@ -203,7 +203,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ayano.jpg"
                                 alt="">
@@ -220,7 +220,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/takuya.jpg"
                                 alt="">
@@ -237,7 +237,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/tsubasa.jpg"
                                 alt="">
@@ -254,7 +254,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 px-5 mb-4">
+                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
                         <div class="border border-primary rounded overflow-hidden">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/masato.jpg"
                                 alt="">

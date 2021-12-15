@@ -41,3 +41,19 @@ function FixedAnime() {
 jQuery(window).scroll(function () {
   FixedAnime();
 });
+
+
+jQuery(function () {
+  jQuery(window).scroll(function () {
+    jQuery(".fadein").each(function () {
+      var elemPos = jQuery(this).offset().top; /* 要素の位置を取得 */
+      var scroll = jQuery(window).scrollTop(); /* スクロール位置を取得 */
+      var windowHeight = jQuery(window).height(); /* 画面幅を取得（画面の下側に入ったときに動作させるため） */
+      if (scroll > elemPos - windowHeight) {
+        /* 要素位置までスクロール出来たときに動作する */
+        jQuery(this).addClass("effect-scroll");
+      }
+    });
+  });
+  jQuery(window).scroll();
+});
