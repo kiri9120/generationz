@@ -332,7 +332,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="row justify-content-center py-3">
                             <div class="col-8">
                                 <p class="text-md mb-2">霧生真斗</p>
-                                <p class="text-sm">conf株式会社 代表</p>
+                                <p class="text-sm">conf合同会社 代表</p>
                             </div>
                             <div class="col-4 text-right">
                                 <img loading="lazy"
