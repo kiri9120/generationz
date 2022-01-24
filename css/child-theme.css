@@ -16623,7 +16623,6 @@ body {
   -ms-transform: translateX(-50%);
 }
 
-.member-list:before,
 .member-list:after {
   content: "";
   display: block;
@@ -16631,20 +16630,9 @@ body {
   height: 0;
 }
 @media (min-width: 768px) {
-  .member-list:before,
-.member-list:after {
+  .member-list:after {
     width: 33.3%;
   }
-}
-@media (min-width: 992px) {
-  .member-list:before,
-.member-list:after {
-    width: 25%;
-  }
-}
-
-.member-list:before {
-  order: 1;
 }
 
 /* フリップ */

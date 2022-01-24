@@ -81,7 +81,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
                 <div class="fadein mt-6 py-4 bg-white rounded">
                     <h3 class="h3 text-center text-lg mt-3 mb-5">関連会社一覧</h3>
-                    <div class="row justify-content-center px-5">
+                    <div class="row px-5">
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
                             <img loading="lazy"
                                 src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_bokuwata.png"
@@ -91,10 +91,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <img loading="lazy"
                                 src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ichimi.png" class="w-100"
                                 style="max-width: 100px;" alt="">
-                        </div>
-                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
-                            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ancr.png"
-                                class="w-100" alt="">
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
                             <img loading="lazy"
@@ -115,7 +111,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_conf.png"
                                 class="w-100" style="max-width: 150px;" alt="">
                         </div>
-                        <div class="col-6 col-md-3 mb-5 text-center"></div>
                     </div>
                 </div>
             </div>
@@ -169,31 +164,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <img loading="lazy"
                                     src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ichimi.png"
                                     class="w-100" style="max-width: 60px;" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-card">
-                            <div class="front border border-primary rounded overflow-hidden">
-                                <img loading="lazy"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato1.jpg" class="w-100"
-                                    alt="" />
-                            </div>
-                            <div class="back border border-primary rounded overflow-hidden">
-                                <img loading="lazy"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/hayato2.jpg" class="w-100"
-                                    alt="" />
-                            </div>
-                        </div>
-                        <div class="row justify-content-center py-3">
-                            <div class="col-8">
-                                <p class="text-md mb-2">福島颯人</p>
-                                <p class="text-sm">株式会社ANCR CEO</p>
-                            </div>
-                            <div class="col-4 text-right">
-                                <img loading="lazy"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_ancr.png"
-                                    class="w-100" alt="">
                             </div>
                         </div>
                     </div>
