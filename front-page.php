@@ -94,6 +94,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
                             <img loading="lazy"
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_nopain.png" class="w-100"
+                                style="max-width: 100px;" alt="">
+                        </div>
+                        <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                            <img loading="lazy"
                                 src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_yoicho.png" class="w-100"
                                 style="max-width: 60px;" alt="">
                         </div>
@@ -104,12 +109,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
                             <img loading="lazy"
-                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_beingbase.png"
-                                class="w-100" style="max-width: 60px;" alt="">
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_BaSE.png"
+                                class="w-100" style="max-width: 100px;" alt="">
                         </div>
                         <div class="col-6 col-md-3 mb-5 d-flex align-items-center justify-content-center">
                             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_conf.png"
-                                class="w-100" style="max-width: 150px;" alt="">
+                                class="w-100" style="max-width: 120px;" alt="">
                         </div>
                     </div>
                 </div>
@@ -171,28 +176,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="flipped-card">
                             <div class="front border border-primary rounded overflow-hidden">
                                 <img loading="lazy"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita1.jpg" class="w-100"
-                                    alt="" />
-                            </div>
-                            <div class="back border border-primary rounded overflow-hidden">
-                                <img loading="lazy"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/keita2.jpg" class="w-100"
-                                    alt="" />
-                            </div>
-                        </div>
-                        <div class="row justify-content-center py-3">
-                            <div class="col-8">
-                                <p class="text-md mb-2">渋谷啓太</p>
-                                <p class="text-sm">株式会社ness CEO</p>
-                            </div>
-                            <div class="col-4 text-right">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fadein col-12 col-md-6 col-lg-4 px-5 mb-4">
-                        <div class="flipped-card">
-                            <div class="front border border-primary rounded overflow-hidden">
-                                <img loading="lazy"
                                     src="<?php echo get_stylesheet_directory_uri(); ?>/images/ryohei1.jpg" class="w-100"
                                     alt="" />
                             </div>
@@ -208,6 +191,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p class="text-sm">株式会社NOPAIN CEO</p>
                             </div>
                             <div class="col-4 text-right">
+                                <img loading="lazy"
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_nopain.png"
+                                    class="w-100" style="max-width: 70px;" alt="">
                             </div>
                         </div>
                     </div>
@@ -281,8 +267,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                             <div class="col-4 text-right">
                                 <img loading="lazy"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_beingbase.png"
-                                    class="w-100" style="max-width: 50px;" alt="">
+                                    src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_BaSE.png"
+                                    class="w-100" style="max-width: 80px;" alt="">
                             </div>
                         </div>
                     </div>
